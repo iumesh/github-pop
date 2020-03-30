@@ -20,7 +20,7 @@ class Repo:
 
     def get_contributors(self):
         """
-
+        Get contributors
         :return:
         """
         if len(self.contributors) == 0:
@@ -31,7 +31,7 @@ class Repo:
     # repos by count
     def get_contributors_by_contribution(self):
         """
-
+        Sort contributors by contribution
         :return:
         """
         self.get_contributors()
@@ -43,7 +43,7 @@ class Repo:
     # fetch contributors
     def __fetch_contributors(self):
         """
-
+        Fetch contributors via api
         :return:
         """
 
